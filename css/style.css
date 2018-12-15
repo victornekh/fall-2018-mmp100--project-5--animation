@@ -1,0 +1,23 @@
+@keyframes row1 {
+   0% {
+      background-position: 0 0;
+   }
+
+   100% {
+      background-position: -45000px 0;
+   }
+}
+
+#animation {
+   animation: row1 10s steps(90) none;
+   animation-iteration-count: infinite;
+   width: 500px;
+   height: 500px;
+   margin:auto;
+   background-image: url('../img/sprite.png');
+}
+
+h1 {position:absolute; left: 45%; top: 30%; right:auto; bottom: auto;}
+h2 {position:absolute; left: 43%; top: 50%; right:auto; bottom: auto;}
+html {font-family: 'ZCOOL QingKe HuangYou', cursive; color: yellowgreen; text-shadow: yellow 2px 2px;
+  background: url(https://cdn.pixabay.com/photo/2013/07/12/12/31/pacman-145845_1280.png) no-repeat center center;}
